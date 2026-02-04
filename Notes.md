@@ -1,4 +1,25 @@
-/* eslint-disable react-native/no-inline-styles */
+# React Native Tutorial: Hitesh Choudhary Youtube
+
+## Rewrite React Native App
+
+```ts
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const App = () => {
+  return (
+    <View>
+      <Text>Hello World 💕</Text>
+    </View>
+  );
+};
+
+export default App;
+```
+
+## Styling React Native Components: The Fundamentals of Stylesheet
+
+```ts
 import React, { JSX } from 'react';
 import { View, Text, StyleSheet, useColorScheme } from 'react-native';
 
@@ -32,3 +53,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+```
